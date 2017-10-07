@@ -1,0 +1,161 @@
+@media only screen and (max-width: 1200px) {  
+    .top-maintext-one {
+        margin-top: -200px;
+    }
+    
+    .top-subtext-one {
+        margin-bottom: 70px;
+    }
+    
+    .container-first {
+        max-width: 98%;
+        margin-bottom: 10px;      
+        padding: 0px;
+        height: 1500px;
+    }
+    
+    #imgLogo {
+        margin-left: auto;
+    }
+    
+    .container-titles {
+        font-size: 20px;
+        margin-left: 10px;
+        
+    }
+    
+    .container-one, .container-two {
+        font-size: 18px;
+    }   
+    
+    footer {    
+        max-width: 100%;
+        margin-top: 200px;
+        margin-bottom: auto;
+        background-color: #20B2AA;
+    }
+}
+
+@media only screen and (max-width: 920px) {  
+    .wrapper a {
+	   padding: 21px 10px;
+    }
+    
+    .top-main-image {
+        margin-top: 100px;
+    }
+    
+    footer {
+        height: 400px;;
+        margin-top: 300px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    header {
+        max-width: auto;
+        height: 150px;
+        background-color: #20B2AA;
+    }
+    
+    #imgLogo {     
+        margin-top: 35px;
+    }  
+    
+    .wrapper {
+        display: none;
+    }
+
+    .imgHamburger {
+        display: block;
+        margin-top: 45px;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+     
+    h1.top-maintext-one {
+        font-size: 60px;
+        margin-top: -300px;
+    }
+    
+    .top-main-image {
+        margin-bottom: 130px;
+        height: 500px;
+    }
+    
+    .container-first {
+        width: 96%;
+        height: 1600px;
+        margin-bottom: 200px;
+    }
+    
+    .container-one {
+        max-width: 100%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    
+    .container-two {
+        max-width: 100%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 17px;
+    }
+    
+    .towntour {
+        height: auto;
+    }
+    
+    .destination-left, .destination-right {
+        font-size: 15px;
+        float: none;
+    }      
+}
+
+@media only screen and (max-width: 500px) {
+        
+    h1.top-maintext-one {
+        margin-top: -400px;
+    }
+    
+    h4.top-subtext-one {
+        margin-bottom: 100px;
+    }
+    
+    .container-first {
+        height: 1700px;
+    }
+    
+    .container-one {  
+        font-size: 15px;
+    }
+    
+    .container-two {
+        font-size: 15px;
+    }
+    
+    footer {
+        margin-top: 250px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    header {
+        max-width: auto;
+        height: 150px;
+        background-color: #20B2AA;
+    }
+    
+    .container-first {
+        max-width: 400px;
+    } 
+}
+
+

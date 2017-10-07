@@ -1,0 +1,115 @@
+.attraction-container-one {
+    max-width: 1400px;
+    height: 300px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: transparent;
+}
+
+.attraction-img {
+    max-width: 40%;
+    height: 100%;
+    float: left;
+    margin: auto;
+    background-color: #edf3f8;
+    padding: 0px;
+    box-shadow: -5px 5px 15px 0px rgba(0,0,0,0.2);
+}
+
+.attraction-texts {
+    max-width: 58%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    background-color: #edf3f8;
+    padding: 0px;
+    box-shadow: -5px 5px 15px 0px rgba(0,0,0,0.2);
+}
+
+.myTexts {
+    margin: 30px;
+    font-size: 21px;
+    text-indent: 3em;
+    text-align: justify;
+}
+
+/*=========================================*/
+.attraction-container-two {
+    max-width: 1400px;
+    height: 400px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: transparent;
+}
+
+.myTexts-two {
+    margin: 30px;
+    font-size: 16px;
+    text-indent: 3em;
+    text-align: justify;
+}
+
+.attraction-imgTwo {
+    max-width: 40%;
+    height: 100%;
+    float: left;
+    margin: auto;
+    background-color: #edf3f8;
+    padding: 0px;
+    box-shadow: -5px 5px 15px 0px rgba(0,0,0,0.2);
+}
+
+/*=========================================*/
+.myTexts-three {
+    margin: 30px;
+    font-size: 14px;
+    text-indent: 3em;
+    text-align: justify;
+}
+
+/*===============================================*/
+@media only screen and (max-width: 1400px) {   
+    .attraction-container-one, .attraction-container-two {
+        max-width: 96%;
+        height: auto;
+        margin-top: 30px;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: black;
+    }
+    
+    .attraction-img, .attraction-imgTwo {
+        max-width: 100%;
+        height: 450px;
+        float: none;
+        margin: auto;
+        background-color: #edf3f8;
+        padding: 0px;
+        box-shadow: -5px 5px 15px 0px rgba(0,0,0,0.2);
+    }
+
+    .attraction-texts {
+        max-width: 100%;
+        height: 100%;
+        float: none;
+        margin-top: -30px;
+        text-align: center;
+        background-color: #edf3f8;
+        padding-top: 30px;
+        box-shadow: -5px 5px 15px 0px rgba(0,0,0,0.2);
+    }
+}
+
+@media only screen and (max-width: 900px) {   
+    .attraction-img, .attraction-imgTwo {
+        height: 350px;
+    }
+}
+  
+
+
+
+
+
