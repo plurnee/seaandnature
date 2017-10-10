@@ -84,6 +84,7 @@ body {
     margin-right: auto;
     background-color: #edf3f8;
     padding: 0px 0px 15px 0px;
+    font-size: 16px;
     box-shadow: -5px 5px 15px 0px rgba(0,0,0,0.2);
 }
 
@@ -95,6 +96,7 @@ body {
     margin-right: auto;
     background-color: #edf3f8;
     padding: 0px;
+    font-size: 16px;
     box-shadow: -5px 5px 15px 0px rgba(0,0,0,0.2);
 }
 
@@ -224,7 +226,7 @@ footer {
     
     
     .container-first {
-        margin-top: 100px;
+        margin-top: 150px;
     }
     
     .img-map-one {
@@ -246,6 +248,7 @@ footer {
 @media only screen and (max-width: 900px) {   
     .top-maintext-one {
         margin-top: -630px;
+        font-size: 70px;
     }
     
     .top-subtext-one {
@@ -265,7 +268,7 @@ footer {
     }
     
     p {
-        font-size: 16px;
+        font-size: 14px;
     }
     
     .home-image {
@@ -284,6 +287,11 @@ footer {
 }
 
 @media only screen and (max-width: 600px) { 
+    .top-maintext-one {
+        margin-top: -750px;
+        font-size: 50px;
+    }
+    
     .myImages {
         height: 350px;
     }
@@ -303,19 +311,21 @@ footer {
     .img-map-two {
         height: 400px;
     }
+    
+    .top-main-image {
+        height: 400px;
+    }
 }
 
 @media only screen and (max-width: 500px) { 
-    .top-main-image {
-        height: 500px;
-    }
     
     .top-maintext-one {
-        margin-top: -700px;
+        margin-top: -750px;
+        font-size: 50px;
     }
     
     .top-subtext-one {
-        font-size: 14px;
+        font-size: 12px;
     }
     
     .container-one {
@@ -329,6 +339,27 @@ footer {
     }
     
     .container-one {
-        margin-top: 0px;
+        margin-top: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 440px) { 
+    .top-maintext-one {
+        margin-top: -760px;
+    }
+    
+    .container-one {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 440px) { 
+    .top-maintext-one {
+        margin-top: -800px;
+    }
+    
+    .container-one {
+        margin-top: 50px;
     }
 }
