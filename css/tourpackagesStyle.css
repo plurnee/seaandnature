@@ -399,11 +399,16 @@ div.hidden-banner {
 
 @media only screen and (max-width: 800px) {
     .top-maintext-two {
-        margin-top: -600px;
+        margin-top: -700px;
+        font-size: 70px;
     }
     
     .myImages { 
         height:350px;
+    }
+    
+    .top-main-image {
+        height: 500px;
     }
 }
 
@@ -415,11 +420,11 @@ div.hidden-banner {
 
 @media only screen and (max-width: 600px) {
     .tourpackages-container-first {
-        margin-top: -100px;
+        margin-top: -150px;
     }
     
     .top-main-image {
-        height: 500px;
+        height: 400px;
     }
     
     .myImages {
@@ -427,8 +432,8 @@ div.hidden-banner {
     }
     
     .top-maintext-two {
-        font-size: 60px;
-        margin-top: -700px;
+        font-size: 50px;
+        margin-top: -750px;
     }
     
     .top-subtext-two {
@@ -438,15 +443,22 @@ div.hidden-banner {
     .myImages { 
         height:300px;
     }
+
 }
 
-@media only screen and (max-width: 440px) {
+
+@media only screen and (max-width: 420px) {
     .tourpackages-container-first {
-        margin-top: -200px;
+        margin-top: -170px;
     }
     
     .myImages { 
         height:250px;
+    }
+    
+    .top-maintext-two {
+        font-size: 60px;
+        margin-top: -820px;
     }
 }
 
