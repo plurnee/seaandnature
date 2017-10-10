@@ -1,115 +1,158 @@
-.attraction-container-one {
-    max-width: 1400px;
-    height: 300px;
-    margin-top: 30px;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: transparent;
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Attractions</title>
 
-.attraction-img {
-    max-width: 40%;
-    height: 100%;
-    float: left;
-    margin: auto;
-    background-color: #edf3f8;
-    padding: 0px;
-    box-shadow: -5px 5px 15px 0px rgba(0,0,0,0.2);
-}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="css/indexStyle.css">
+    <link rel="stylesheet" href="css/header.css">
+    <script src="javascript/mainJS.js"></script>
 
-.attraction-texts {
-    max-width: 58%;
-    height: 100%;
-    float: right;
-    text-align: center;
-    background-color: #edf3f8;
-    padding: 0px;
-    box-shadow: -5px 5px 15px 0px rgba(0,0,0,0.2);
-}
+    <link rel="stylesheet" href="css/attractionsStyle.css" >
+    <link rel="stylesheet" href="css/sliderStyle.css">
+</script>
+</head>
 
-.myTexts {
-    margin: 30px;
-    font-size: 21px;
-    text-indent: 3em;
-    text-align: justify;
-}
+<body>
+    <header>
+        <ul>
+            <li id="imgLogo"><a href="index.html"><img src="images/SeaAndNature_noback.png" style="width:200px; height:70px;"></a>
+            <li class="wrapper"><a href="index.html">
+                <i class="fa fa-home" aria-hidden="true"></i> Home</a>
+            <li class="wrapper"><a href="Tour%20Packages.html">
+            <i class="fa fa-suitcase" aria-hidden="true"></i> Tour Packages</a>
 
-/*=========================================*/
-.attraction-container-two {
-    max-width: 1400px;
-    height: 400px;
-    margin-top: 30px;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: transparent;
-}
+            <li class="wrapper"><a href="Attractions.html"><i class="fa fa-location-arrow" aria-hidden="true"></i> Attractions</a>
+                
+            <li class="wrapper"><a href="About%20Us.html">
+            <i class="fa fa-question-circle-o" aria-hidden="true"></i> About Us</a>
 
-.myTexts-two {
-    margin: 30px;
-    font-size: 16px;
-    text-indent: 3em;
-    text-align: justify;
-}
+            <li class="imgHamburger"><img src="images/humbergerIcon.png" style="width:60px; height:50px;">
+                <div class="hamburger-dropdown">
+                    <a href="index.html">Home</a>
+                    <a href="Tour%20Packages.html">Tour Packages</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">About Us</a>
+                </div>
+        </ul>
+    </header>
 
-.attraction-imgTwo {
-    max-width: 40%;
-    height: 100%;
-    float: left;
-    margin: auto;
-    background-color: #edf3f8;
-    padding: 0px;
-    box-shadow: -5px 5px 15px 0px rgba(0,0,0,0.2);
-}
+    <div class="slider">
+		<figure>
+			<div class="slide">
+				<img class="top-main-image" src="images/beachTop.jpg">
+			</div>
 
-/*=========================================*/
-.myTexts-three {
-    margin: 30px;
-    font-size: 14px;
-    text-indent: 3em;
-    text-align: justify;
-}
+			<div class="slide">
+				<img class="top-main-image" src="images/A.jpg">
+			</div>
 
-/*===============================================*/
-@media only screen and (max-width: 1400px) {   
-    .attraction-container-one, .attraction-container-two {
-        max-width: 96%;
-        height: auto;
-        margin-top: 30px;
-        margin-right: auto;
-        margin-left: auto;
-        background-color: black;
-    }
+			<div class="slide">
+				<img class="top-main-image" src="images/B.jpg">
+			</div>
+
+			<div class="slide">
+				<img class="top-main-image" src="images/C.jpg">
+			</div>
+
+			<div class="slide">
+				<img class="top-main-image" src="images/D.jpg">
+			</div>
+		</figure>
+	</div> 
     
-    .attraction-img, .attraction-imgTwo {
-        max-width: 100%;
-        height: 450px;
-        float: none;
-        margin: auto;
-        background-color: #edf3f8;
-        padding: 0px;
-        box-shadow: -5px 5px 15px 0px rgba(0,0,0,0.2);
-    }
+    <h1 class="top-maintext-one">Attractions</h1><br />
+    <h4 class="top-subtext-one">We have many choices to choose from...</h4>
 
-    .attraction-texts {
-        max-width: 100%;
-        height: 100%;
-        float: none;
-        margin-top: -30px;
-        text-align: center;
-        background-color: #edf3f8;
-        padding-top: 30px;
-        box-shadow: -5px 5px 15px 0px rgba(0,0,0,0.2);
-    }
-}
+    <!--ONE-->
+    <div class="attraction-container-one">
+        <div class="attraction-img">
+            <img class="myImages" src="images/G.jpg" style="width: 100%; height: 100%;">
+        </div>
+        
+        <div class="attraction-texts">
+            <p class="myTexts" style="margin-top: 50px;">The TOWN TOUR showcases what lies in store for you in the next days of your stay. You become familiarized with the surrounding of Coron Town and you see a glimpse of the outlying islands as you trek Mount Tapyas. Here, you get a vantage view of the breathtaking, scenic Coron Islands. Veering your eyes on the back view lush greenery on rolling mountain slopes greet you. Indeed, TAPYAS is a viewdeck.</p><p class="myTexts">At Maquinit Hotspring, you soak your weary feet and tired, aching muscles in the hot therapeutic salt waters to soothe your worn-out body. A rare gem, Maquinit is salt water unlike other hotsprings.</p>
+        </div>
+    </div>  
+    
+    <!--TWO-->
+    <div class="attraction-container-two">
+        <div class="attraction-imgTwo">
+            <img class="myImages" src="images/H.jpg" style="width: 100%; height: 100%;">
+        </div>
+        
+        <div class="attraction-texts">
+            <p class="myTexts-two">This PACKAGE offers you the most-loved destinations where you are able to commune with nature.</p><p class="myTexts-two">KAYANGAN LAKE had been adjudged cleanest and greenest inland lake for 5 consecutive years making it to the Hall of Fame.</p><p class="myTexts-two">At SMITH CORAL GARDEN, you will enjoy the variety of marine life that abound in the area. It is as if you are in a mermaid's world!!!</p><p class="myTexts-two">Then take a relaxing lunch at a cotage in BANOL BEACH. Feel the powdery fine sand with your bare feet Frolic in the expanse of the clear seas.</p><p class="myTexts-two">At SIETE PICADOS MARINE RESERVE, one can experience fish feeding. The area is a habitat of marine life...</p><p class="myTexts-two">CORALS are a must-see at TWIN PEEKS REEF where you can observe the throbbing life of corals...</p>
+        </div>
+    </div> 
+    
+    <!--THREE-->
+    <div class="attraction-container-two">
+        <div class="attraction-img">
+            <img class="myImages" src="images/I.jpg" style="width: 100%; height: 100%;">
+        </div>
+        
+        <div class="attraction-texts">
+            <p class="myTexts-three">Twin Lagoon is another unique experience. It is nestled amidst towering limestone cliffs. There is a sinkhole to which one can swim through to reach the inner lagoon. There is fresh COLD water trickling down the magnificent limestone cliffs. It does not merge with the sea water which has salt content making it saline. The heaviness or density of the water is because of it's salt content makes it remain in the bottom while the cold fresh water occupies the surface. As you immerse yourself in water, you will experience the difference in temperature of the water.</p><p class="myTexts-three">BARRACUDA LAKE is so named because it is said that there was a huge resident barracuda in the olden times. The jagged limestone walls resemble a Cathedral, making its beauty distict and awesome.</p><p class="myTexts-three">Submerging in the SKELETON WRECK, you are able to see the skeleton of a sunken ship which is now home to varied species of fish --- you will enjoy communing with these sea creatures in varied sizes and colours.</p><p class="myTexts-three">It is a great snorkeling paradise at ATUAYAN BEACH, TOURISTS eat their lunch with gusto at their native huts.</p><p class="myTexts-three">The corals at the back of CYC Island is another sight to behold. You see the biodiversity up front...</p><p class="myTexts-three">Finally, bash under the sun and frolic in the myriad expanse of the sea and swim to your heart's content at charm BEACH '91.</p>
+        </div>
+    </div>
+    
+    <!--FOUR-->
+    <div class="attraction-container-one" style="margin-top: 50px;">
+        <div class="attraction-img">
+            <img class="myImages" src="images/J.jpg" style="width: 100%; height: 100%;">
+        </div>
+        
+        <div class="attraction-texts">
+            <p class="myTexts">Comparable to BORACAY, MALCAPUYA BEACH has been enjoyed by countless beach tourists. The sand is so fine and beach is such an inviting sight to behold.</p><p class="myTexts">Across the expanse of the sea is another island equally captivating to sea lovers...There are basic sport amenities/facilities like the basketball court and the volleyball area. Named for its shape, Banana Island is a favorite havaen for swimming enthusiasts.</p><p class="myTexts">The small BULOG DOS ISLAND is a sandbar submerged in water during hightide and a small piece of island when it is lowtide.</p>
+        </div>
+    </div>
+    
+    <!--FIVE-->
+    <div class="attraction-container-one" style="margin-top: 50px;">
+        <div class="attraction-img">
+                <img class="myImages" src="images/K.jpg" style="width: 100%; height: 100%;">
+        </div>
+        
+        <div class="attraction-texts">
+            <p class="myTexts" style="margin-top: 70px;">This package brings you to the fleet of sunken World War II shipwrecks which is a magnet to divers the world over. Guided by our licensed tour guide, you could snorkel and see these historical wrecks. It is an experience endemic to CORON where the Japanese sunken ships are located. At PASS ISLAND, you will enjoy lunch in an unspoiled island nestled amidst the clean blue waters around.</p>
 
-@media only screen and (max-width: 900px) {   
-    .attraction-img, .attraction-imgTwo {
-        height: 350px;
-    }
-}
-  
+        </div>
+    </div>
+    
+    <!--SIX-->
+    <div class="attraction-container-one" style="margin-top: 50px;">
+        <div class="attraction-img">
+            <img class="myImages" src="images/L.jpg" style="width: 100%; height: 100%;">
+        </div>
+        
+        <div class="attraction-texts">
+            <p class="myTexts-two" style="font-size: 15px;">The tour begins with breakfast at Salvacion Town, which is in Busuanga.</p><p class="myTexts-two" style="font-size: 15px;">Then enjoy a once in a lifetime experience feeding giraffes and having selfie with a zebra at the background, indeen an experience of a piece of Africa...</p><p class="myTexts-two" style="font-size: 15px;">Coming from Calauit, the tour proceeds to Ocam-ocam Beach which is reachable by van! It is situated in the countryside, a part of Busuanga. Perfect to rest and have lunch.</p><p class="myTexts-two" style="font-size: 15px;">From there, you take a boat trip to Black Island - a unique beach with a cave. Explore and discover!</p><p class="myTexts-two" style="font-size: 15px;">On the way back to CORON town, drop by at a lovely rustic church nestled in a hell amidst a bucolic setting to utter thanks to the Almighty!!!</p>
+        </div>
+    </div> 
+    
+    <!--====================================-->
+     <footer>
+        <div class="footer-texts">22 Don Pedro St. Bgy. 3 Coron, Palawan<br />Contact Details:
+        <br />Doll Gutierrez<br />(Smart) 0939-289-1088<br />(Globe) 0977-718-1371<br />Pearl Palanca<br />(Smart) 0929-975-3541<br />(Globe) 09568160141<br />Email us @: sample@gmail.com<br /><h3>Find us on social media.</h3></div>
+            <ul style="text-align:center;">
+                <li id="li-one"><a href="https://www.facebook.com/">
+                    <img class="img-social" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png"></a>
 
+                <li id="li-one">
+                <a href="https://twitter.com/">
+                    <img class="img-social" src="http://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Twitter-icon.png"></a>
 
+                <li id="li-one"><a href="https://www.youtube.com/">
+                    <img class="img-social" src="http://icons.iconarchive.com/icons/dtafalonso/android-l/256/Youtube-icon.png"></a>
+                </li>
+                <li id="li-one">
+                <a href="https://www.instagram.com/?hl=en">
+                    <img class="img-social" src="https://www.seeklogo.net/wp-content/uploads/2016/06/Instagram-logo.png"></a>
+            </ul>
 
+    </footer>
+</body>
 
-
+</html>
