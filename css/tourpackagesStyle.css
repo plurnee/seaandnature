@@ -395,6 +395,10 @@ div.hidden-banner {
     .tourpackages-container-first {
         margin-top: -120px;
     }
+    
+    .myTexts-one {
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -415,6 +419,14 @@ div.hidden-banner {
 @media only screen and (max-width: 730px) {
     .top-maintext-two {
         margin-top: -700px;
+    }
+    
+    .myTexts-one {
+        font-size: 13px;
+    }
+    
+    .price, .closebtn {
+        font-size: 15px;
     }
 }
 
@@ -443,7 +455,14 @@ div.hidden-banner {
     .myImages { 
         height:300px;
     }
-
+    
+    .myTexts-one {
+        font-size: 11px;
+    }
+    
+    .price, .closebtn {
+        font-size: 13px;
+    }
 }
 
 
