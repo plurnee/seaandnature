@@ -422,11 +422,11 @@ div.hidden-banner {
     }
     
     .myTexts-one {
-        font-size: 13px;
+        font-size: 11px;
     }
     
     .price, .closebtn {
-        font-size: 15px;
+        font-size: 13px;
     }
 }
 
@@ -457,11 +457,11 @@ div.hidden-banner {
     }
     
     .myTexts-one {
-        font-size: 11px;
+        font-size: 9px;
     }
     
     .price, .closebtn {
-        font-size: 13px;
+        font-size: 9px;
     }
 }
 
